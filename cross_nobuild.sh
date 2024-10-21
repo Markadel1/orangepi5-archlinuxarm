@@ -155,7 +155,7 @@ config_repos() {
         mirror_7Ji=${mirror_7Ji:-http://repo.7ji.lan/7Ji}
     else
         mirror_archlinux=${mirror_archlinux:-https://geo.mirror.pkgbuild.com}
-        mirror_archlinuxarm=${mirror_alarm:-http://mirror.archlinuxarm.org}
+        mirror_archlinuxarm=${mirror_alarm:-https://ca.us.mirror.archlinuxarm.org}
         if ping -w1 google.com &>/dev/null; then
             mirror_archlinuxcn=${mirror_archlinuxcn:-https://mirrors.xtom.us/archlinuxcn}
         else
